@@ -1,0 +1,59 @@
+html,
+#body {
+  margin: 0.5% 1%;
+  height: 100%;
+  user-select: none;
+}
+
+#input{
+  display: inline;
+  width: 70%;
+  padding-right: 0;
+  margin-top: 10px;
+}
+
+.img{
+  width: 170px;
+}
+
+#btn{
+  display: inline;
+  margin-left: 8px;
+  width: 12%;
+}
+
+/* section result */
+.result{
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin: 5% 5%;
+  padding: 2%;
+  line-height: 2;
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  border-top: 0.5px solid;
+  text-rendering: optimizeLegibility;
+  white-space: normal;
+  box-shadow: 10px 10px 5px 5px gray;
+  border-left: 5px solid red
+}
+
+.logo{
+  width: 15%;
+  position: absolute;
+  left: 76%;
+  border-radius: 20%;
+}
+
+#description{
+  width: 50%;
+}
+
+#download{
+  position: absolute;
+  left: 77%;
+  bottom: 53%;
+  width: 13%;
+}
