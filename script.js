@@ -48,6 +48,6 @@ app.post("/", (req, res) => {
     })
 })
 
-app.listen(5500 || process.env.PORT, (req, res) => {
+app.listen(process.env.PORT , (req, res) => {
     console.log("http://localhost:5500/")
 })
