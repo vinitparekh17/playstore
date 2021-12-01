@@ -87,7 +87,7 @@ footer{
 }
 
 /* this is for ejs footer.  */
-#footer{
+/*#footer{
   clear: both;
   height: 50px;
   margin-top: 2%;
@@ -101,7 +101,7 @@ footer{
   left: 0;
   right: 0;
   height: 30px;
-}
+}*/
 
 #footer{
   position: relative;
