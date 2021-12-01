@@ -23,10 +23,8 @@ html,
 .result{
   width: 98%;
   padding: 2%;
-  margin: 0.5%;
+  margin: 30px 0.5% 50px;
   text-align: left;
-  margin-top: 30px;
-  margin-bottom: 2%;
   line-height: 1.5;
   font-weight: 300;
   font-size: large;
