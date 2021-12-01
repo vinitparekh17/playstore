@@ -24,11 +24,10 @@
 
 /* section result */
 .result{
-  width: 96%;
+  width: 95%;
   padding: 2%;
-  margin: 2%;
+  margin: 1.5%;
   text-align: left;
-  margin-top: 5px;
   line-height: 1.5;
   border-top: 0.5px solid black;
   border-bottom: 0.5 solid black;
