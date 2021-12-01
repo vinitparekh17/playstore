@@ -2,64 +2,85 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./style.css">
-    <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>PlayStore Search</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./style.css">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>PlayStore Search</title>
 </head>
 
 <body id="body">
   <section id="top">
-  <form method="post">
-    <div>
-      <img class="img" src="https://www.gstatic.com/android/market_images/web/play_prism_hlock_2x.png" alt="playstore"> <br>
-      <input class="form-control" type="search" placeholder="Search" aria-label="Search" id="input" name="s"> 
-    <button id="btn" class="btn btn-outline-success" id="search" type="submit">Search</button>
-    </div>
+    <form method="post">
+      <div>
+        <img class="img" src="https://www.gstatic.com/android/market_images/web/play_prism_hlock_2x.png"
+          alt="playstore"> <br>
+        <input class="form-control shadow-lg p-3 mb-5 bg-body rounded" type="search" placeholder="Search"
+          aria-label="Search" id="input" name="s">
+        <button id="btn" class="btn btn-outline-success" id="search" type="submit">Search</button>
+      </div>
     </form>
   </section>
 
-    <section class="result">
-      
-      <div class="container">
-        <dl>
-          <dt>
-          <div class="titles">
-            <img class="logo" alt="app logo" src=<%= appIcon %>>
-            <span id="title"><h1> <%= appName %> </h1> </span>
-          </dt>
-          <dd>
-            <button type="submit" class="btn btn-success btn-lg" id="download" onclick="location.href = '<%= appUrl%>'">Install</button>
-          </dd>
+  <section class="result">
 
-        <dt> <strong><h3> Description: </h3></strong> </dt>
+    <div>
+      <dl>
+        <dt>
+          <div class="titles">
+            <img class="logo" alt="app logo" src=<%=appIcon %>>
+            <span id="title">
+              <h1>
+                <%= appName %>
+              </h1>
+            </span>
+        </dt>
+        <dd>
+          <button type="submit" class="btn btn-success btn-lg" id="download"
+            onclick="location.href = '<%= appUrl%>'">Install</button>
+        </dd>
+
+        <dt> <strong>
+            <h3> Description: </h3>
+          </strong> </dt>
         <dd id="description">
           <%= appDescription%>
         </dd> <br>
-        <dt> <strong><h3> Rateings: </h3></strong> </dt>
+        <dt> <strong>
+            <h3> Rateings: </h3>
+          </strong> </dt>
         <dd>
           <%= appScore%> stars
         </dd> <br>
-        <dt> <strong><h3> Price: </h3></strong> </dt>
+        <dt> <strong>
+            <h3> Price: </h3>
+          </strong> </dt>
         <dd>
           <%= appValue %>
         </dd> <br>
-        <dt> <strong><h3> Developer: </h3></strong> </dt>
+        <dt> <strong>
+            <h3> Developer: </h3>
+          </strong> </dt>
         <dd>
           <%= appDev %>
         </dd>
-        </dl>
-      </div>
+      </dl>
+    </div>
+  </section>
 
-    </section>
-    
-    <footer>
-      <div id="copy"> &copy; Developed by Mr. Parekh </div>
-    </footer>
-  </body>
+  <div class="tp">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima accusantium modi, possimus veniam ex quae autem
+      labore. In odio voluptates soluta veniam dignissimos nam dolore laudantium natus, delectus sunt, doloremque
+      repellat cumque, esse eum.</p>
+  </div>
+
+  <div class="fixed-bottom footer">
+    &copy; Mr. Parekh
+  </div>
+</body>
 
 
 </html>

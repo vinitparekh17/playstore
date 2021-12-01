@@ -1,6 +1,7 @@
-html,
-#body {
+*{
   user-select: none;
+  margin: 0;
+  padding: 0;
 }
 
 #input{
@@ -8,10 +9,12 @@ html,
   width: 70%;
   padding-right: 0;
   margin-top: 10px;
+  position: relative;
 }
 
 .img{
   width: 170px;
+  position: relative;
 }
 
 #btn{
@@ -21,21 +24,17 @@ html,
 
 /* section result */
 .result{
-  width: 98%;
+  width: 96%;
   padding: 2%;
-  margin: 0.5%;
-  position: relative;
+  margin: 2%;
   text-align: left;
-  margin-top: 30px;
-  margin-bottom: 50px;
-  line-height: 1.5;
-  font-weight: 300;
-  font-size: large;
-  border-top: 0.5px solid;
-  text-rendering: optimizeLegibility;
-  white-space: normal;
+  margin-top: 10px;
+  line-height: 1;
+  border-top: 0.5px solid black;
+  border-bottom: 0.5 solid black;
   box-shadow: 10px 10px 5px 5px gray;
-  border-left: 5px solid red
+  border-left: 5px solid red; 
+  height: 90%;
 }
 
 dd{
@@ -55,6 +54,11 @@ dd{
   width: 70%;
 }
 
+.tp{
+  margin-top: 5px;
+  display: none;
+}
+
 #title{
   margin-right: 90px;
   margin-top: 20px;
@@ -67,52 +71,14 @@ dd{
   width: 110px;
 }
 
-.container{
-  padding-bottom: 5px;
-}
-
-/* this is before search footer */
-footer{
-  text-align: center;
-  background-color: darkblue;
-  color: white;
-  padding: 0;
-  margin-top: 20px;
-  height: 30px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 50px;
-}
-
-/* this is for ejs footer.  */
-/*#footer{
-  clear: both;
-  height: 50px;
-  margin-top: 2%;
-  text-align: center;
-  background-color: darkblue;
-  color: white;
-  padding: 0;
-  margin-bottom: 0;
-  margin-top: 30px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  height: 30px;
-}*/
-
-#footer{
-  position: relative;
-  padding: 15px;
-}
-
 #top{
   margin: 1%;
   padding: 1%;
 }
 
-#copy{
-  margin-top: 15px;
+.footer{
+  background-color: darkblue;
+  color: white;
+  height: 30px;
+  text-align: center;
 }
