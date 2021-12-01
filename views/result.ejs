@@ -12,40 +12,53 @@
 </head>
 
 <body id="body">
-  <img class="img" src="https://www.gstatic.com/android/market_images/web/play_prism_hlock_2x.png" alt="">
+  <section id="top">
   <form method="post">
     <div>
+      <img class="img" src="https://www.gstatic.com/android/market_images/web/play_prism_hlock_2x.png" alt="playstore"> <br>
       <input class="form-control" type="search" placeholder="Search" aria-label="Search" id="input" name="s"> 
-    <button id="btn" class="btn btn-success mx-auto" id="search" type="submit">Search</button>
+    <button id="btn" class="btn btn-outline-success" id="search" type="submit">Search</button>
     </div>
     </form>
+  </section>
 
     <section class="result">
       
-      <div>
-        <img class="logo" alt="app logo" src=<%= appIcon %>>
-        <button type="submit" class="btn btn-success mx-auto" id="download">Install</button>
+      <div class="container">
         <dl>
-        <dt> <h3> Name </h3> </dt>
-        <dd>
-          <%= appName %>
-        </dd> <br>
-        <dt> <h3> Description </h3> </dt>
+          <dt>
+          <div class="titles">
+            <img class="logo" alt="app logo" src=<%= appIcon %>>
+            <span id="title"><h1> <%= appName %> </h1> </span>
+          </dt>
+          <dd>
+            <button type="submit" class="btn btn-success btn-lg" id="download" onclick="location.href = '<%= appUrl%>'">Install</button>
+          </dd>
+
+        <dt> <strong><h3> Description: </h3></strong> </dt>
         <dd id="description">
           <%= appDescription%>
         </dd> <br>
-        <dt> <h3> Rateings </h3> </dt>
+        <dt> <strong><h3> Rateings: </h3></strong> </dt>
         <dd>
           <%= appScore%> stars
         </dd> <br>
-        <dt> <h3> Price </h3> </dt>
+        <dt> <strong><h3> Price: </h3></strong> </dt>
         <dd>
           <%= appValue %>
+        </dd> <br>
+        <dt> <strong><h3> Developer: </h3></strong> </dt>
+        <dd>
+          <%= appDev %>
         </dd>
         </dl>
       </div>
 
     </section>
+
+    <footer>
+      &copy; Developed by Mr. Parekh
+    </footer>
   </body>
 
 
