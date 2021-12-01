@@ -23,8 +23,11 @@ html,
 .result{
   width: 98%;
   padding: 2%;
-  margin: 30px 0.5% 50px;
+  margin: 0.5%;
+  position: relative;
   text-align: left;
+  margin-top: 30px;
+  margin-bottom: 50px;
   line-height: 1.5;
   font-weight: 300;
   font-size: large;
@@ -68,6 +71,7 @@ dd{
   padding-bottom: 5px;
 }
 
+/* this is before search footer */
 footer{
   text-align: center;
   background-color: darkblue;
@@ -75,13 +79,39 @@ footer{
   padding: 0;
   margin-top: 20px;
   height: 30px;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
+  height: 50px;
+}
+
+/* this is for ejs footer.  */
+#footer{
+  clear: both;
+  height: 50px;
+  margin-top: 2%;
+  text-align: center;
+  background-color: darkblue;
+  color: white;
+  padding: 0;
+  margin-bottom: 0;
+  margin-top: 50px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 30px;
+}
+
+#footer{
+  position: relative;
 }
 
 #top{
   margin: 1%;
   padding: 1%;
+}
+
+#copy{
+  margin-top: 15px;
 }
