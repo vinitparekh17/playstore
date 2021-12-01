@@ -1,0 +1,82 @@
+html,
+#body {
+  user-select: none;
+}
+
+#input{
+  display: inline;
+  width: 70%;
+  padding-right: 0;
+  margin-top: 10px;
+}
+
+.img{
+  width: 170px;
+}
+
+#btn{
+  display: inline;
+  margin-left: 8px;
+}
+
+/* section result */
+.result{
+  width: 98%;
+  padding: 2%;
+  margin: 0.5%;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 2%;
+  line-height: 1.5;
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  border-top: 0.5px solid;
+  text-rendering: optimizeLegibility;
+  white-space: normal;
+  box-shadow: 10px 10px 5px 5px gray;
+  border-left: 5px solid red
+}
+
+.logo{
+  width: 120px;
+  border-radius: 20%;
+  float: right;
+  /* margin-bottom: 5px;
+  padding-bottom: 5px; */
+  /* margin-right: 10px; */
+}
+
+#description{
+  width: 70%;
+}
+
+#title{
+  margin-right: 90px;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#download{
+  position: relative;
+  bottom: 20px;
+  width: 110px;
+}
+
+.container{
+  padding-bottom: 5px;
+}
+
+footer{
+  text-align: center;
+  background-color: darkblue;
+  color: white;
+  padding: 0;
+  margin-top: 20px;
+  height: 30px;
+}
+
+#top{
+  margin: 1%;
+  padding: 1%;
+}
