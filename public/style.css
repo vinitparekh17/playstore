@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+/* #body{
+  background-color: #120E43;
+} */
+
 #input{
   display: inline;
   width: 70%;
@@ -15,6 +19,8 @@
 .img{
   width: 170px;
   position: relative;
+  margin-left: 25%;
+  margin-bottom: 2%;
 }
 
 #btn{
@@ -24,16 +30,19 @@
 
 /* section result */
 .result{
-  width: 95%;
+  width: 96%;
   padding: 2%;
-  margin: 1.5%;
+  margin: 2%;
   text-align: left;
-  line-height: 1.5;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  line-height: 1;
   border-top: 0.5px solid black;
   border-bottom: 0.5 solid black;
   box-shadow: 10px 10px 5px 5px gray;
   border-left: 5px solid red; 
   height: 90%;
+  
 }
 
 dd{
@@ -73,12 +82,20 @@ dd{
 #top{
   margin: 1%;
   padding: 1%;
+  margin-left: 20%;
 }
 
 .footer{
   background-color: darkblue;
-  padding: 10px;
   color: white;
   height: 30px;
   text-align: center;
+  margin-top: 200px;
+  
+  
+  /* margin-bottom: 0px; */
+  bottom:0;
+  width:100%;
+  
+  
 }
