@@ -50,6 +50,6 @@ app.post("/", (req, res) => {
     })
 })
 
-app.listen(5500 || process.env.PORT , () => {
+app.listen(process.env.PORT , () => {
     console.log("Your project is ready to launch")
 })
