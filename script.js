@@ -24,6 +24,8 @@ app.post("/", (req, res) => {
 
         try {
             App = JSON.parse(JSON.stringify(Data[0]));
+
+            console.log(Data)
         } catch (error) {
             return res.write("<h1> Error 404: </h1> <br /> <h2> Application not found!</h2>")
         }
@@ -48,6 +50,6 @@ app.post("/", (req, res) => {
     })
 })
 
-app.listen(process.env.PORT , (req, res) => {
-    console.log("http://localhost:5500/")
+app.listen(5500 || process.env.PORT , () => {
+    console.log("Your project is ready to launch")
 })

@@ -4,27 +4,14 @@
   padding: 0;
 }
 
-/* #body{
-  background-color: #120E43;
-} */
-
-#input{
-  display: inline;
-  width: 70%;
-  padding-right: 0;
-  margin-top: 10px;
-  position: relative;
-}
-
-.img{
+#img{
   width: 170px;
-  position: relative;
-  margin-left: 25%;
-  margin-bottom: 2%;
+  margin-bottom: 12px;
+  /* position: relative; */
+  /* align-self: center; */
 }
 
 #btn{
-  display: inline;
   margin-left: 8px;
 }
 
@@ -53,9 +40,6 @@ dd{
   width: 120px;
   border-radius: 20%;
   float: right;
-  /* margin-bottom: 5px;
-  padding-bottom: 5px; */
-  /* margin-right: 10px; */
 }
 
 #description{
@@ -79,23 +63,20 @@ dd{
   width: 110px;
 }
 
-#top{
-  margin: 1%;
-  padding: 1%;
-  margin-left: 20%;
-}
-
 .footer{
   background-color: darkblue;
   color: white;
   height: 30px;
   text-align: center;
   margin-top: 200px;
-  
-  
-  /* margin-bottom: 0px; */
   bottom:0;
   width:100%;
-  
-  
+}
+
+#search{
+  margin: 1%;
+}
+
+#input{
+  margin-bottom: 10px;
 }
